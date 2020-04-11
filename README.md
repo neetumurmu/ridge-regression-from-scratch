@@ -2,6 +2,6 @@
 
 Ridge regression implementation includes batch and stochastic gradient descent algorithms written from scratch.
 
-Algorithms are tested on a small multivariable multicollinear simulated dataset.
+Algorithms are tested on a small multivariable simulated dataset with multicollinearity.
 
 Error metric : R2-score
