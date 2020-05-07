@@ -1,8 +1,8 @@
 # Ridge Regression from Scratch
 
 This project implements ridge regression from scratch in python using both batch and stochastic gradient descent.  
-A multivariate dataset with multicollinearity was used for testing algorithms, which was simulated using scikit-learn.   
-Evaluation metric used : R2-score
+A **multivariate dataset with multicollinearity** was used for testing algorithms, which was simulated using scikit-learn.   
+Evaluation metric used : **R2-score**
 
 ### Objectives
 - To understand the math behind ridge regression algorithm.
