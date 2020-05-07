@@ -1,7 +1,17 @@
-# ridge-regression-from-scratch
+# Ridge Regression from Scratch
 
-Ridge regression implementation includes batch and stochastic gradient descent algorithms written from scratch.
+This project implements ridge regression from scratch in python using both batch and stochastic gradient descent.  
+A multivariate dataset with multicollinearity was used for testing algorithms, which was simulated using scikit-learn.   
+Evaluation metric used : R2-score
 
-Algorithms are tested on a small multivariable simulated dataset with multicollinearity.
+### Objective
+- To understand the math behind ridge regression algorithm.
+- To compare performance difference between algorithms implemented using batch and stochastic gradient descent.
+- To compare the accuracy of implemented regression algorithms with scikit-learn algorithms.
 
-Error metric : R2-score
+### Observations 
+
+- Batch GD outperforms SGD by a large margin, because a small dataset is used to train the algorithms.
+- Implemented algorithms have almost same accuracy with a difference of +/-0.5-1.0%.
+
+
